@@ -1,13 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Count from "./Count";
+import FigureList from "./Figure/FigureList";
+import ToDoClass from "./ToDo/ToDoClass";
+import { ToDoFunction } from "./ToDo/ToDoFunction";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <Count />
+    <FigureList />
+    <ToDoClass />
+    <ToDoFunction />
   </React.StrictMode>
 );
 
